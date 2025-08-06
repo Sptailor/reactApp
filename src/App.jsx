@@ -28,15 +28,7 @@ function App() {
       <List animals={animals} /> 
 
    
-      <svg>
-        <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
-      </svg>
-      <form>
-        <input type="text" />
-      </form>
-      <p>Enjoy the list!</p>
-      <p>Have a great day!</p>
-      <p>Feel free to explore more!</p>
+    
       <p>Thank you for visiting!</p>
       <p>Goodbye!</p>
      
