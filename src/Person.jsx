@@ -4,12 +4,12 @@ import './Person.css'
 
 function Person() {
   const [person, setPerson] = useState({ name: "John", age: 100 });
-  // const [fName,setFirstName]=useState('');
-  // const [lName,setLastName]=useState('');
+ 
 
 
 
-  // GOOD - Do this!
+
+ 
   const handleIncreaseAge = () => {
     // copy the existing person object into a new object
     // while updating the age property
