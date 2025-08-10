@@ -6,10 +6,6 @@ function Person() {
   const [person, setPerson] = useState({ name: "John", age: 100 });
  
 
-
-
-
- 
   const handleIncreaseAge = () => {
     // copy the existing person object into a new object
     // while updating the age property
@@ -17,6 +13,7 @@ function Person() {
     setPerson(newPerson);
    
   };
+  //Using destructuring to update specific parts of a string
   const handleFirstName = (e) => {
     const [, lastName = ""] = person.name.split(" "); // ignore first name, keep last
     const newPerson = { ...person, name: e.target.value + " " + lastName };
