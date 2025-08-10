@@ -8,7 +8,7 @@ import Person from './Person.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     { <Greeting/> }
-    { < App/> }
+    {/* { < App/> } */}
     <Person/>
 
     
