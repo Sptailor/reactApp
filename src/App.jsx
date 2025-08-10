@@ -1,6 +1,7 @@
+
 import { useState } from 'react'
 
-import './App.css'
+import './App2.css'
 
 function ListItem(props) {
   return <li>{props.animal}</li>

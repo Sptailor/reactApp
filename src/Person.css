@@ -1,0 +1,28 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #666;
+  margin-top: 0;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #4cafef;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #379ad8;
+}
