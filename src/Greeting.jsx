@@ -7,7 +7,7 @@ function Helloworld() {
  
  const clickHandler = () => {
     index = (index + 1) % colorArray.length;
-    setColor(colorArray[index]);
+    setColor(colorArray[index]);//updates color on click, is the main function being used
  }
 
  
