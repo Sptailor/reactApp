@@ -1,9 +1,9 @@
 
 import React from 'react';
-const colorArray = ['red', 'blue', 'green', 'yellow', 'purple'];
-let index = 0;
+const colorArray = ['red', 'blue', 'green', 'yellow', 'purple'];//array of colors
+let index = 0;//starts at 0
 function Helloworld() {
- const [color, setColor] = React.useState(colorArray[index]);
+ const [color, setColor] = React.useState(colorArray[index]);//uses it once to set initial color
  
  const clickHandler = () => {
     index = (index + 1) % colorArray.length;
