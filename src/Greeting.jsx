@@ -6,13 +6,13 @@ function Helloworld() {
  const [color, setColor] = React.useState(colorArray[index]);//uses it once to set initial color
  
  const clickHandler = () => {
-    index = (index + 1) % colorArray.length;
+    index = (index + 1) % colorArray.length;//cycles through colors
     setColor(colorArray[index]);//updates color on click, is the main function being used
  }
 
  
 
-  return <h1 style={{ color: color }} onClick={clickHandler}>"Hello, World!"</h1> ;
+  return <h1 style={{ color: color }} onClick={clickHandler}>"Hello, World!"</h1> ;//clicking the text changes its color
 
 
 }
