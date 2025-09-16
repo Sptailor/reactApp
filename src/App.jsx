@@ -7,7 +7,7 @@ function ListItem(props) {
   return <li>{props.animal}</li>//displays each animal in a list item
 }
 
-function List(props) {
+function List(props) {//receives an array of animals as props
   return (
     <ul>
       {props.animals.map((animal) => {
@@ -17,11 +17,11 @@ function List(props) {
   );
 }
 
-function App() {
+function App() {//main component
   const animals = ["Lion", "Cow", "Snake", "Lizard","Goats", "Elephant", "Tiger", "Monkey", "Dog", "Cat"];//array of animals
 
 
-  return (
+  return (//main component return
     <div>
     
       <h1>Welcome to the Animal List</h1>
